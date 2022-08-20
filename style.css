@@ -1,0 +1,1187 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --green: #27ae60;
+    --black: #444;
+    --light-color: #777;
+    --bg-color: #e6e6e6;
+    --border: .1rem solid rgba(0, 0, 0, .2);
+    --box-shadow: .4rem .4rem 1rem #ccc,
+        -.4rem -.4rem 1rem #111;
+    --box-shadow-inset: .4rem .4rem 1rem #ccc inset,
+        -.4rem -.4rem 1rem #111 inset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #181818;
+}
+
+.logo .logo-img img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 3.0rem;
+}
+
+
+.home {
+    display: flex;
+    width: auto;
+    height: auto;
+    color: #fff;
+    min-width: 100rem;
+    height: 60rem;
+    background: url(./img/Java\ Introduction.gif) no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .home1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .home1 .max-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30rem;
+}
+
+.home1 .home-content .text-1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-right: 10rem;
+
+}
+
+.home1 .home-content .text-2 {
+    font-size: 9.0rem;
+    font-weight: 900;
+    margin-top: 2.0rem;
+}
+
+
+.home1 .home-content a {
+    display: inline-block;
+    background-color: #a52a2a;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    margin-top: 2.0rem;
+    margin-right: 30rem;
+    font-weight: 400;
+    border: .2rem solid #a52a2a;
+    border-radius: .6rem;
+    transition: all 0.3s ease;
+
+}
+
+.home1 .home-content a:hover {
+    color: crimson;
+    background: none;
+}
+
+.home1 .centerdiv {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: 12rem;
+    margin-top: 20.8rem;
+    margin-bottom: 2rem;
+
+}
+
+.home1 .centerdiv a {
+    color: #fff;
+    margin: 2.0rem;
+    width: 1.0rem;
+    height: 1.0rem;
+}
+
+.centerdiv a i {
+    transition: all 0.3s linear;
+    margin-right: 7.0rem;
+}
+
+.centerdiv a:hover i {
+    transform: scale(1.4);
+}
+
+.centerdiv .fa-facebook {
+    color: #0097e6;
+}
+
+.centerdiv .fa-twitter {
+    color: #0097e6;
+}
+
+.centerdiv .fa-instagram {
+    color: #e84393;
+}
+
+.centerdiv .fa-youtube {
+    color: #e84118;
+}
+
+.centerdiv .fa-linkedin {
+    color: #0097e6;
+}
+
+.centerdiv a:hover .fa {
+    transform: scale(1.4);
+    color: #fff;
+
+}
+
+/* roun here  */
+.round1 .round-content {
+    display: flex;
+    color-scheme: light;
+    background-attachment: fixed;
+    font-size: 2.5rem;
+    animation: animate 20s linear infinite;
+    overflow: hidden;
+    font-weight: 600;
+    margin-top: 2.0rem;
+
+}
+
+.round {
+    background: #fff;
+    min-width: 110.0rem;
+}
+
+.round1 .round-content .text2 {
+    margin-left: 5.0rem;
+
+}
+
+@keyframes animate {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* box styleing--- */
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 2.0rem;
+
+}
+
+.box .box-content {
+    display: block;
+    flex-wrap: wrap;
+    padding: 2.0rem;
+    margin: 5.0rem 6.0rem;
+    width: 55.0rem;
+    /* height: 250px; */
+    background: #111;
+    border: .2rem solid black;
+    border-radius: 2.0rem;
+    color: #fff;
+}
+
+.box .box-content .text1 {
+    color: #a52a2a;
+    font-size: 3.0rem;
+    font-weight: 200;
+    margin-bottom: 2.0rem;
+}
+
+.box .box-content .text2 {
+    font-size: 2.0rem;
+    font-weight: 100;
+}
+
+.box .box-img img {
+    width: 50.0rem;
+    height: 30.0rem;
+    border: .2rem solid #a52a2a;
+    border-radius: 2.0rem;
+    margin-top: 3.0rem;
+}
+
+/* here start styleing What makes us unique */
+.unique {
+    background: #a52a2a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 8.0rem 5.0rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    width: 95%;
+}
+
+.unique .unique-heding {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.unique-boxs {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15.0rem 8.0rem;
+    margin-right: 3.0rem;
+}
+
+.unique-boxs .box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: .2rem solid #a52a2a;
+    border-radius: 5.0rem;
+    width: 30.0rem;
+    height: 32.0rem;
+}
+
+.unique-boxs .box .box-heding {
+    color: crimson;
+    font-size: 3.0rem;
+    font-weight: 600;
+    padding: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.unique-boxs .box .box-paira {
+    font-size: 2.0rem;
+    font-weight: 100;
+    margin-bottom: 2.0rem;
+    padding: 2.0rem;
+    margin-top: 4.0rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.unique-boxs #box1 {
+    background: url(./img/java\ in2.jpg);
+    background-size: cover;
+}
+
+
+.unique-boxs #box2 {
+    background: url(./img/java\ in3.jpg);
+    background-size: cover;
+
+}
+
+.unique-boxs #box3 {
+    background: url(./img/java\ in4.jpg);
+    background-size: cover;
+
+}
+
+
+/* here start styleing  our strengths  */
+
+.strengths-boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3.0rem 8.0rem;
+    margin-right: 3.0rem;
+}
+
+.strengths-boxs .box {
+    display: block;
+    flex-wrap: wrap;
+}
+
+.strengths-boxs .box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: .5rem solid #a52a2a;
+    border-radius: 5.0rem;
+    width: 27.0rem;
+    height: 28.0rem;
+}
+
+.strengths-boxs .box .box-heding {
+    color: crimson;
+    font-size: 3.0rem;
+    font-weight: 1000;
+    padding: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.strengths-boxs .box .box-paira {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 100;
+    margin-bottom: 2.0rem;
+    padding: 2.0rem;
+    margin-top: 4.0rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.strengths-boxs #box1 {
+    background: url(./img/Ankit\ Gupta\ Founder.jpg);
+    background-size: cover;
+
+}
+
+.strengths-boxs #box2 {
+    background: url(./img/Prof.\ Elangovan\ Rajagopala.jpeg);
+    background-size: cover;
+}
+
+.strengths-boxs #box3 {
+    background: url();
+    background-size: cover;
+}
+
+.strengths-boxs #box4 {
+    background: url(./img/Mr.\ Vipin\ Sharma.jpg);
+    background-size: cover;
+}
+
+.strengths-boxs #box5 {
+    background: url(./img/Mechatronics\ Engineers.png);
+    background-size: cover;
+}
+
+.strengths-boxs #box6 {
+    background: url(./img/Expertise\ and\ Experience.jpg);
+    background-size: cover;
+}
+
+
+/* Here styleing work  */
+.work {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2.0rem 5.0rem;
+
+}
+
+.work-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.work img {
+    width: 40.0rem;
+    height: 20.0rem;
+}
+
+.work .hed {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 3.0rem;
+}
+
+.work .paira {
+    font-size: 2.0rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2.0rem;
+}
+
+/* Here styleing team  */
+
+.main-team{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin: 2.0rem 5.0rem;
+}
+
+.team-content {
+    margin: 1.0rem 2.0rem;
+    background: #101010;
+    width: auto;
+    height: inherit;
+    border: .2rem solid #101010;
+    border-radius: 3rem;
+
+}
+
+.team img {
+    width: 20.0rem;
+    height: 20.0rem;
+    border: .2rem solid #101010;
+    border-radius: 1rem;
+}
+
+.team .hed {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 3.0rem;
+}
+
+.team .hed1 {
+    font-size: 2.0rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2.0rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.team .hed1 a {
+    color: #a52a2a;
+}
+
+.team .paira {
+    font-size: 2.0rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2.0rem;
+}
+
+.team a {
+    color: #fff;
+}
+
+
+
+/* Here styleing Other Services  */
+.other-services {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30.0rem;
+    font-size: 8rem;
+    font-weight: 800;
+
+}
+
+.other {
+    display: flex;
+    align-items: center;
+    background: url(./img/java\ in1.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    width: auto;
+    height: 50.0rem;
+}
+
+.genorion {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10.0rem;
+    font-size: 4.0rem;
+    font-weight: 900;
+}
+
+.genorion1 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.genorion1 .genorion1-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: .0rem 5.0rem;
+}
+
+.genorion1 .genorion1-content .had {
+    font-size: 3.0rem;
+    font-weight: 500;
+    margin-bottom: 3.0rem;
+    margin-left: 6.0rem;
+    margin-top: 6.0rem;
+}
+
+.genorion1 .genorion1-content .paira1 {
+    font-size: 2.0rem;
+    font-weight: 300;
+    width: 80%;
+    margin-left: 13.0rem;
+    margin-bottom: 4.0rem;
+}
+
+.genorion1 .genorion1-content .paira2 {
+    font-size: 2.0rem;
+    font-weight: 300;
+
+}
+
+.genorion1 .genorion1-content .link {
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-top: 4.0rem;
+    text-decoration: underline;
+}
+
+.genorion1 .genorion1-content .link a {
+    color: #fff;
+}
+
+.genorion1 .genorion1-img {
+    margin-left: 4.0rem;
+
+}
+
+.genorion1 .genorion1-img img {
+    height: 40.0rem;
+    border: .2rem solid #111;
+    border-radius: 3.0rem;
+
+}
+
+
+/* Here start styleing Internship opportunities   */
+.intern {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.intern-content {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-top: 3.0rem;
+}
+
+.intern-content span {
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 1.0rem;
+}
+
+.intern ol li {
+    margin: 2.0rem;
+}
+
+/* Here conteact */
+.contact {
+    display: block;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact .hed-content {
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 1.0rem;
+    margin-bottom: 4rem;
+}
+
+.contact-form form {
+    margin: 1rem auto;
+    max-width: 70rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+.contact form .box {
+    padding: 1rem 1.5rem;
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: none;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.contact form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+.contact form .box:focus {
+    box-shadow: var(--box-shadow-inset);
+}
+
+.contact .file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.contact #file {
+    padding: 1rem;
+    color: #a52a2a;
+    background: #a52a2a;
+    margin-left: 2rem;
+    width: 11.5rem;
+}
+
+.contact #btn {
+    background: #a52a2a;
+    margin-right: 2rem;
+    color: #e6e6e6;
+    padding: 1rem 2.5rem;
+    width: 10rem;
+}
+
+.head {
+    display: block;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-left: 5.0rem;
+}
+
+/* Here styleign heding  */
+.head .head1 {
+    font-size: 4.0rem;
+    font-weight: 400;
+    margin: 3.0rem .0rem;
+}
+
+.head .head2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 128, 0, 0.6);
+    border: .2rem solid rgba(0, 128, 0, 0.6);
+    border-radius: 1.0rem;
+    width: 50%;
+    height: 8.0rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto;
+}
+
+.whatsapp .icon {
+    margin-right: 5.0rem;
+}
+
+.whatsapp .content {
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+.whatsapp a {
+    color: #fff;
+    padding: 3.0rem;
+}
+
+.orion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.orion .space {
+    color: #fff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 40.0rem;
+}
+
+.orion .space .head {
+    font-size: 3.0rem;
+    font-weight: 600;
+    margin: 3.0rem;
+}
+
+.orion .space .paira {
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin: 1.0rem;
+}
+
+.orion .space .contact {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin: 1.0rem;
+    text-decoration: underline;
+}
+
+.orion .space .email {
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.orion .hours .head {
+    font-size: 3.0rem;
+    font-weight: 600;
+    margin: 3.0rem;
+}
+
+.orion a {
+    color: #fff;
+}
+
+.orion .hours .time {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin: 2.0rem;
+}
+
+/* Here start styleing Meet Our Partners  */
+
+.partners {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 25.0rem .0rem;
+}
+
+.partners .partners-img img {
+    margin: 10.0rem 4.0rem;
+    border: .8rem solid #a52a2a;
+    border-radius: 2.0rem;
+    padding: 1.0rem;
+}
+
+/* Here start styleing Social presence  */
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15.0rem;
+    margin-bottom: 15.0rem;
+}
+
+.icons a i {
+    transition: all 0.3s linear;
+    margin-right: 5.0rem;
+}
+
+.icons a:hover i {
+    transform: scale(1.4);
+}
+
+.icons .fa-facebook {
+    color: #0097e6;
+}
+
+.icons .fa-twitter {
+    color: #0097e6;
+}
+
+.icons .fa-instagram {
+    color: #e84393;
+}
+
+.icons .fa-youtube {
+    color: #e84118;
+}
+
+.icons .fa-linkedin {
+    color: #0097e6;
+}
+
+.icons a:hover .fa {
+    transform: scale(1.4);
+    color: #fff;
+
+}
+
+/* Here start styleing footer */
+.footer-content {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 10.0rem;
+}
+
+.footer-content .head {
+    font-size: 3.0rem;
+    font-weight: 600;
+
+}
+
+.footer-content .paira1 {
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-top: 2.0rem;
+
+}
+
+.footer-content .email {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-top: 1.0rem;
+    text-decoration: underline;
+}
+
+.footer-content .contact {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-top: 2.0rem;
+    text-decoration: underline;
+
+}
+
+.footer-content a {
+    color: #fff;
+}
+
+.footer-content .paira2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-top: 2.0rem;
+}
+
+/* :start media quriy */
+
+@media (max-width: 998px) {
+    html {
+        font-size: 45%;
+        display: flex;
+
+    }
+
+    .logo .logo-img {
+        margin: 0% 350%;
+    }
+
+    .team {
+        display: block;
+        flex-wrap: wrap;
+
+    }
+
+    .strengths {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box .box-content {
+        width: 80%;
+        height: 40rem;
+    }
+
+    .box .box-content .text1 {
+        font-size: 5.0rem;
+        font-weight: 500;
+    }
+
+    .box .box-content .text2 {
+        margin-top: 4rem;
+        font-size: 3.5rem;
+        font-weight: 100;
+    }
+
+    .box .box-img img {
+        width: 90.0rem;
+        height: 50.0rem;
+    }
+
+    #box1 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #box3 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    .unique .unique-heding {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+
+    .unique-boxs {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 30%;
+    }
+
+    .unique-boxs .box {
+        border: .4rem solid #a52a2a;
+        width: 40.0rem;
+        height: 42.0rem;
+    }
+
+    .unique-boxs .box .box-heding {
+        font-size: 5.0rem;
+        font-weight: 700;
+        padding: 2.0rem;
+        margin-bottom: 2.0rem;
+    }
+
+    .unique-boxs .box .box-paira {
+        font-size: 3.0rem;
+        font-weight: 100;
+    }
+
+    .strengths-boxs .box {
+        border: 1rem solid #a52a2a;
+        border-radius: 5.0rem;
+        width: 45rem;
+        height: 45.0rem;
+        margin-bottom: 4rem;
+    }
+
+    .strengths-boxs .box .box-heding {
+        font-size: 5.0rem;
+        font-weight: 800;
+        margin-bottom: 2.0rem;
+    }
+
+    .strengths-boxs .box .box-paira {
+        font-size: 3.0rem;
+        font-weight: 100;
+    }
+
+    .centerdiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .team .team-content {
+
+        width: 60%;
+        height: 85rem;
+        border-radius: 3.0rem;
+        margin-bottom: 10rem;
+        margin-left: 20%;
+
+    }
+
+    .team img {
+        width: 30.0rem;
+        height: 30.0rem;
+        border: 2px solid #101010;
+        border-radius: 2rem;
+    }
+
+    .team .hed {
+        font-size: 5rem;
+        font-weight: 500;
+        margin: 3.0rem;
+    }
+
+    .team .hed1 {
+        font-size: 4.0rem;
+        font-weight: 300;
+    }
+
+    .team .paira {
+        font-size: 3.0rem;
+        font-weight: 200;
+    }
+
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 30%;
+    }
+
+    .work {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .work {
+        width: 70%;
+        margin-left: 20rem;
+    }
+
+    .work img {
+        width: 70.0rem;
+        height: 30.0rem;
+    }
+
+    .work .hed {
+        font-size: 4.5rem;
+        font-weight: 500;
+        margin: 4.0rem;
+    }
+
+    .work .paira {
+        font-size: 3.0rem;
+        font-weight: 200;
+        margin: 3.0rem;
+    }
+
+
+    .partners {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .partners .partners-img {
+        width: auto;
+    }
+
+    .partners .partners-img img{
+        width: 40rem;
+    }
+
+    .partners .partners-img #img2{
+        height: 20rem;
+        width: auto;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 20%;
+        display: flex;
+
+    }
+
+    .logo .logo-img {
+        margin: 0% 350%;
+    }
+
+    .centerdiv {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .unique-boxs {
+        margin-left: 25%;
+    }
+
+    .unique-boxs .box {
+        border: .5rem solid #a52a2a;
+        width: 50.0rem;
+        height: 52.0rem;
+    }
+
+    .unique-boxs .box .box-heding {
+        font-size: 7.0rem;
+        font-weight: 800;
+    }
+
+    .unique-boxs .box .box-paira {
+        font-size: 4.0rem;
+        font-weight: 50;
+    }
+
+    .strengths-boxs .box {
+        border: 1.5rem solid #a52a2a;
+        border-radius: 5.0rem;
+        width: 55rem;
+        height: 55.0rem;
+        margin-bottom: 5rem;
+    }
+
+    .strengths-boxs .box .box-heding {
+        font-size: 6.0rem;
+        font-weight: 100;
+        margin-bottom: 2.0rem;
+    }
+
+    .strengths-boxs .box .box-paira {
+        font-size: 4.0rem;
+        font-weight: 50;
+    }
+
+    .work {
+        width: 70%;
+        margin-left: 20rem;
+    }
+
+     .team .team-content {
+        width: 60%;
+        height: 85rem;
+        border-radius: 3.0rem;
+        margin-bottom: 10rem;
+        margin-left: 20%;
+
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 15%;
+        display: flex;
+
+    }
+
+}
