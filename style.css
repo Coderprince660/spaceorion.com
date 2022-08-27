@@ -244,9 +244,8 @@ body {
     color: #fff;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
     margin: 15.0rem 8.0rem;
-    margin-right: 3.0rem;
 }
 
 .unique-boxs .box {
@@ -254,10 +253,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
     border: .2rem solid #a52a2a;
     border-radius: 5.0rem;
-    width: 30.0rem;
+    width: 40.0rem;
     height: 32.0rem;
 }
 
@@ -415,7 +413,7 @@ body {
 
 /* Here styleing team  */
 
-.main-team{
+.main-team {
     display: block;
     flex-wrap: wrap;
     justify-content: center;
@@ -423,7 +421,7 @@ body {
 
 }
 
-.team{
+.team {
     display: flex;
     align-items: center;
     color: #fff;
@@ -598,7 +596,7 @@ body {
 }
 
 .intern-content span {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     margin-right: 1.0rem;
 }
@@ -606,6 +604,7 @@ body {
 .intern ol li {
     margin: 2.0rem;
 }
+
 
 /* Here conteact */
 .contact {
@@ -684,7 +683,6 @@ body {
     margin-left: 5.0rem;
 }
 
-/* Here styleign heding  */
 .head .head1 {
     font-size: 4.0rem;
     font-weight: 400;
@@ -727,18 +725,12 @@ body {
 .orion {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
 
 .orion .space {
     color: #fff;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
     width: 40.0rem;
 }
 
@@ -961,28 +953,7 @@ body {
 
     .unique-boxs {
         display: block;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         margin-left: 30%;
-    }
-
-    .unique-boxs .box {
-        border: .4rem solid #a52a2a;
-        width: 40.0rem;
-        height: 42.0rem;
-    }
-
-    .unique-boxs .box .box-heding {
-        font-size: 5.0rem;
-        font-weight: 700;
-        padding: 2.0rem;
-        margin-bottom: 2.0rem;
-    }
-
-    .unique-boxs .box .box-paira {
-        font-size: 3.0rem;
-        font-weight: 100;
     }
 
     .strengths-boxs .box {
@@ -1011,7 +982,6 @@ body {
     }
 
     .team .team-content {
-
         width: 60%;
         height: 85rem;
         border-radius: 3.0rem;
@@ -1023,8 +993,7 @@ body {
     .team img {
         width: 30.0rem;
         height: 30.0rem;
-        border: 2px solid #101010;
-        border-radius: 2rem;
+       
     }
 
     .team .hed {
@@ -1041,6 +1010,166 @@ body {
     .team .paira {
         font-size: 3.0rem;
         font-weight: 200;
+    }
+
+    .genorion1 .genorion1-content .had {
+        font-size: 4.0rem;
+    }
+
+    .genorion1 .genorion1-content .paira1,
+    .genorion1 .genorion1-content .paira2 .genorion1 .genorion1-content .link {
+        font-size: 3.0rem;
+        font-weight: 100;
+
+    }
+
+    .genorion1 .genorion1-img img {
+        height: 50.0rem;
+    }
+
+    .intern-content span {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .intern-content {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .intern ol li {
+        font-size: 4rem;
+        font-weight: 500;
+        margin: 2rem;
+    }
+
+    .orion {
+        display: block;
+    }
+
+    .orion .space {
+        width: 100rem;
+        margin-left: 15rem;
+    }
+
+    .orion .space .head {
+        font-size: 6.0rem;
+    }
+
+    .orion .space .paira,
+    .orion .space .contact,
+    .orion .space .email {
+        font-size: 4.0rem;
+    }
+
+    .orion .hours .head {
+        font-size: 6.0rem;
+        font-weight: 800;
+        margin: 4rem;
+    }
+
+    .orion .hours .time {
+        font-size: 5.0rem;
+        font-weight: 300;
+    }
+
+    .contact-form form {
+
+        max-width: 90rem;
+        height: 70rem;
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+        padding: 2rem;
+    }
+
+    .contact form .box {
+        width: 100%;
+        height: 9rem;
+    }
+
+    .contact-form #textarea {
+        height: 25rem;
+    }
+
+    .contact .file {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+
+    .contact #file {
+        padding: 2rem;
+        font-size: 1.5rem;
+        width: 16.5rem;
+    }
+
+    .contact #btn {
+        font-size: 4rem;
+        width: 16rem;
+    }
+
+    .head {
+        display: block;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .head .head1 {
+        font-size: 7.0rem;
+        font-weight: 200;
+        margin: 4.0rem .0rem;
+    }
+
+    .head .head2 {
+        font-size: 4.5rem;
+        font-weight: 200;
+    }
+
+    .whatsapp {
+        width: 60%;
+        height: 9rem;
+    }
+
+    .whatsapp .icon {
+        margin-right: 2.0rem;
+    }
+
+    .whatsapp .content {
+        font-size: 4.0rem;
+        font-weight: 500;
+    }
+
+
+    .footer-content .head {
+        font-size: 5rem;
+        font-weight: 600;
+    
+    }
+    
+    .footer-content .paira1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-top: 2.0rem;
+    
+    }
+    
+    .footer-content .email {
+        font-size: 4.5rem;
+    }
+    
+    .footer-content .contact {
+        font-size: 4.5rem;
+    
+    }
+
+    .footer-content .paira2 {
+        font-size: 4.0rem;
+        font-weight: 600;
+        margin-top: 2.0rem;
     }
 
 }
@@ -1091,11 +1220,11 @@ body {
         width: auto;
     }
 
-    .partners .partners-img img{
+    .partners .partners-img img {
         width: 40rem;
     }
 
-    .partners .partners-img #img2{
+    .partners .partners-img #img2 {
         height: 20rem;
         width: auto;
     }
@@ -1165,7 +1294,7 @@ body {
         margin-left: 20rem;
     }
 
-     .team .team-content {
+    .team .team-content {
         width: 60%;
         height: 85rem;
         border-radius: 3.0rem;
@@ -1182,6 +1311,11 @@ body {
         font-size: 15%;
         display: flex;
 
+    }
+
+    .unique-boxs {
+        display: block;
+        margin-left: 100%;
     }
 
 }
